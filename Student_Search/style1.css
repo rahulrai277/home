@@ -1,0 +1,20 @@
+body {  
+	background: #B61E3D;
+	font: 12px/16px Georgia, "Times New Roman", Times, serif;
+	color: #ae0080;
+	margin: 0px;
+	margin-bottom:400px;
+	margin-bottom:400px;
+	padding-left:200px;
+	width:760px;
+  
+}	
+
+#container {
+	background: #ffc url(mid.jpg) repeat-y center;
+	position: absolute;
+	left: 50%;
+	width: 760px;
+	
+	margin-left: -380px;
+}
