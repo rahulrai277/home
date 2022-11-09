@@ -6,19 +6,36 @@
 		</title>
 		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 	           <style>
-	                     body{<video src="https://www.youtube.com/watch?v=0xy4NNqX_ZU&t=298s&ab_channel=theRadBrad" muted loop autoplay > </video>}
-    a.mainlink:link, a.mainlink:visited{ 
-										background-color:black; 
-										border-radius:5px; 
-										border:2px solid red; 
-										padding:4px 8px 8px 8px; 
-										text:center; 
-										margin-right:5px;
-										text-decoration:none;
-										font-size: 30px; 
-										font-family:'Arial'; 
-										color:white;}
-	a.mainlink:hover, a.mainlink:active { background-color:#38ACEC; color:pink;}
+	                     body{
+				     <div class="embed-container">
+    <iframe width="640" height="390" 
+    src="https://www.youtube.com/embed/{{ include.id }}" 
+    frameborder="0" allowfullscreen></iframe>
+</div>
+<style>
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+</style>
+			   
+			   
+			   
+			   
+			   
+			   }
 	
 	
 									  
