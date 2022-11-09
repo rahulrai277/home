@@ -5,29 +5,27 @@
 		<title> Rahul Kumar
 		</title>
 		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-	           <div class="embed-container">
-    <iframe width="640" height="390" 
-    src="https://www.youtube.com/watch?v=owFaKs8NMVc&ab_channel=SonySAB" 
-    frameborder="0" allowfullscreen></iframe>
-</div>
-<style>
-.embed-container {
-  position: relative;
-  padding-bottom: 56.25%;
-  height: 0;
-  overflow: hidden;
-  max-width: 100%;
-}
-.embed-container iframe,
-.embed-container object,
-.embed-container embed {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-</style>
+	           
+		
+		
+		
+		<style>
+		/* optional css fade in animation */
+		iframe {
+			transition: opacity 500ms ease-in-out;
+			transition-delay: 250ms;
+		}
+	</style>
+
+	<!-- target element -->
+    <div data-vbg="https://www.youtube.com/watch?v=eEpEeyqGlxA"></div>
+
+    <script type="text/javascript">
+        jQuery(document).ready(function() {
+            jQuery('[data-vbg]').youtube_background();
+        });
+    </script>
+    
 
 	</head>
 	
@@ -80,6 +78,8 @@
 	}
 	</script>
 	
+<script type="text/javascript" src="https://unpkg.com/youtube-background/jquery.youtube-background.js"></script>
+<script type="text/javascript" src="https://unpkg.com/youtube-background/jquery.youtube-background.min.js"></script>
 	
 	
 	
